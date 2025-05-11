@@ -1,0 +1,91 @@
+body{
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    margin:2% 15% 0% 20%;
+    padding: 10%;
+    background-color: rgba(255, 255, 255, 0.85); 
+    gap: 1%;
+    animation: fadein 2s ease-in;
+}
+
+
+#image-container img {
+    height: 400px;
+    border-radius: 20px;
+    animation: slideInLeft 1.5s ease-out;
+}
+
+#signup-form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: slideInRight 1.5s ease-out;}
+
+#signup-form input {
+    width: 100%;
+    padding-right: 10%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+ul{
+    list-style: none;
+    font-size: large;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+}
+
+
+button{
+    border: none;
+    background: coral;
+    color: aliceblue;
+    box-shadow: 20px solid gray;
+    font-size: large;
+    padding: 10px;
+    margin: 1px;
+    width:105%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
