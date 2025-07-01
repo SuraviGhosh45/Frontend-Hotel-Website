@@ -106,3 +106,37 @@ video{
     z-index: 10;
 }
 
+#scroller{
+    /* background-color: red; */
+    white-space:nowrap;
+    overflow-x: auto;
+    overflow-y:hidden;
+}
+
+#scroll1{
+    display: inline-block;
+    white-space: nowrap;
+}
+#scroll2{
+    display: inline-block;
+    white-space: nowrap;
+}
+#scroller h4{
+    display: inline-block;
+    font-size: 140px;
+    font-weight: 800;
+    margin-right: 10px;
+    font-family: gilroy;
+    -webkit-text-stroke: 2px #95C11E;
+    color: transparent;
+    
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
